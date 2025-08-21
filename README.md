@@ -1,22 +1,38 @@
-# HR Management Web App
+# HR Management Web Application  
 
-## Project Structure
-
-- `index.html` — Role selection and login
-- `login_admin.php`, `login_employee.php` — Login pages
-- `dashboard_admin.php`, `dashboard_employee.php` — Dashboards
-- `admin/`, `employee/` — Feature pages
-- `php/` — Backend scripts
-- `sql/hr_management.sql` — Database schema
-- `css/`, `js/` — Assets
-
-## Setup Instructions
-
-1. Import `sql/hr_management.sql` into your MySQL server.
-2. Configure database credentials in `php/db.php`.
-3. Run the project in a PHP-enabled server (XAMPP/WAMP/LAMP).
-4. Start with `index.html` in your browser.
+A simple HR Management system built with **HTML, CSS, PHP, and MySQL**.  
+This project provides separate dashboards for **Admins** and **Employees**, enabling attendance tracking, leave applications, requests, and notices in one platform.  
 
 ---
 
-**Develop features as per the placeholders.** 
+## 🚀 Features  
+
+### 🔑 Authentication  
+- Admin and Employee login  
+- Password recovery  
+
+### 👨‍💼 Admin Dashboard  
+- View employee attendance (time, location, status, warnings)  
+- See present, absent, and on-leave employees  
+- View employees who missed attendance on the previous day  
+- Manage employees (edit, delete, warnings)  
+- Approve/Reject leave and requests  
+- Post notices  
+
+### 👩‍💻 Employee Dashboard  
+- Submit attendance (in/out time + location)  
+- View personal details (ID, designation, department, join date)  
+- Stats: leave taken, missed attendance, pending approvals  
+- Submit leave and requests  
+- Access company directory & notices  
+
+---
+
+## 🛠 Tech Stack  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL  
+
+---
+
+## 📂 Project Structure  
