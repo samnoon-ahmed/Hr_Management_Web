@@ -1,0 +1,1 @@
+// script.js: Custom JavaScript for HR Management Web App 
